@@ -1,0 +1,27 @@
+load_cell_delivery_node:
+  ros__parameters:
+
+    weight_threshold: 2.0
+    weight_stable_time: 3.0
+
+    pre_navigate_delay: 5.0
+    post_unload_delay: 5.0
+
+    nav_server_timeout: 10.0
+    map_frame: "map"
+
+    delivery_x: 0.2158270923694098
+    delivery_y: 3.9984935107647397
+    delivery_z: 0.0
+    delivery_qx: 0.0
+    delivery_qy: 0.0
+    delivery_qz: 0.030388678063095885
+    delivery_qw: 0.9995381574735291
+
+    start_x: 0.24343829330124162
+    start_y: 0.0826174484819945
+    start_z: 0.0
+    start_qx: 0.0
+    start_qy: 0.0
+    start_qz: -0.1375539546259112
+    start_qw: 0.9904942753831406

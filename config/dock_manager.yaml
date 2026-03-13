@@ -1,0 +1,18 @@
+multi_dock_manager:
+  ros__parameters:
+    handover_distance: 0.18
+    brake_zone: 0.40
+    align_speed: 0.06
+    min_linear_speed: 0.03
+    search_speed: 0.09
+    max_angular_speed: 0.14
+    undock_speed: -0.06
+    angular_gain: 1.2
+    angular_deadband: 0.02
+    angular_tolerance: 3.0
+    undock_duration: 4.0
+    search_timeout: 120.0
+    tf_max_age_search: 0.15
+    tf_max_age_rotate: 0.50
+    tf_max_age_align: 0.30
+    max_consecutive_failures: 5

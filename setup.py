@@ -16,6 +16,10 @@ setup(
         ['launch/nav2_load_delivery.launch.py']),
     ('share/' + package_name + '/config',
         ['config/load_cell_params.yaml']),
+    ('share/' + package_name + '/launch',
+        ['launch/delivery_v2.launch.py']),
+    ('share/' + package_name + '/config',
+        ['config/dock_manager.yaml']),   
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -32,6 +36,8 @@ setup(
         'console_scripts': [
             'load_cell_delivery = load_cell_pkg.load_cell_delivery_node:main',
             'load_cell_data = load_cell_pkg.load_cell_data:main',
+            'dock_manager = load_cell_pkg.dock_manager:main',
+            'nav2_dockv2 = load_cell_pkg.nav2_dockv2:main',
         ],
     },
 )
